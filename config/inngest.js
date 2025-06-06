@@ -1,5 +1,5 @@
 import { Inngest } from "inngest";
-import User from "@/models/User";
+import User from "../models/user";
 import connectDB from "./db";
 
 
