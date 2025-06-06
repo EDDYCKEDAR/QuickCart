@@ -7,12 +7,12 @@ const Footer = () => {
     <footer>
       <div className="flex flex-col md:flex-row items-start justify-center px-6 md:px-16 lg:px-32 gap-10 py-14 border-b border-gray-500/30 text-gray-500">
         <div className="w-4/5">
-          <Image className="w-28 md:w-32" src={assets.logo} alt="logo" />
+          <p className="font-medium text-gray-900">SBR TECHNOLOGY LTD</p>
           <p className="mt-6 text-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+           SBR TECHNOLOGY LTD provides cutting-edge electronics products and 
+           services for businesses and individuals. Discover our range of high-quality
+            electronic components, devices, and integrated solutions.
+
           </p>
         </div>
 
@@ -40,14 +40,16 @@ const Footer = () => {
           <div>
             <h2 className="font-medium text-gray-900 mb-5">Get in touch</h2>
             <div className="text-sm space-y-2">
-              <p>+1-234-567-890</p>
-              <p>contact@greatstack.dev</p>
+              <p>+250 787 777 848</p>
+              <p>sbrtechnologyltd@gmail.com</p>
+              <p>Rwanda, Kigali</p>
+              <p> downtown, TCB 2nd floor</p>
             </div>
           </div>
         </div>
       </div>
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © GreatStack.dev All Right Reserved.
+        Copyright 2025 © SbrTechnologyLtd   All Right Reserved.
       </p>
     </footer>
   );
